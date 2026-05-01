@@ -1,5 +1,5 @@
 
-
+import animation from "tailwindcss-animate"
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   darkMode: ["class"],
@@ -60,5 +60,5 @@ export default {
     }
   },
   // eslint-disable-next-line @typescript-eslint/no-require-imports
-  plugins: [require("tailwindcss-animate")],
+  plugins: [animation],
 }
